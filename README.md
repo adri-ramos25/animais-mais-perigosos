@@ -42,4 +42,5 @@ Indisponível.
 
 ## Como Usar
 
-Indisponível.
+1. Clone o repositório: `git clone https://github.com/adri-ramos25/animais-mais-perigosos.git`
+2. Abra o arquivo `index.html` no navegador.
