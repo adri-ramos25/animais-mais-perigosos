@@ -1,6 +1,6 @@
 ## Os Animais Mais Perigosos do Mundo
 
-Todas as seções (com exceção da seção **Status do Projeto**) estão com o status de **Indisponível** porque o projeto está em desenvolvimento.
+Todas as seções, com exceção das seções **Status do Projeto** e **Como Usar**, estão com o status de **Indisponível** porque o projeto está em desenvolvimento.
 
 
 
