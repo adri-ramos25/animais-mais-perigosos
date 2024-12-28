@@ -1,6 +1,6 @@
 ## Os Animais Mais Perigosos do Mundo
 
-Todas as seções, com exceção das seções **Status do Projeto** e **Como Usar**, estão com o status de **Indisponível** porque o projeto está em desenvolvimento.
+Todas as seções, com exceção das seções **Status do Projeto**, **Estrutura de Pastas** e **Como Usar** estão com o status de **Indisponível**, porque o projeto está em desenvolvimento.
 
 
 
@@ -36,7 +36,19 @@ Indisponível.
 
 ## Estrutura de Pastas
 
-Indisponível.
+```plaintext
+src/                         # Pasta com o código-fonte do projeto
+   css/                      # Pasta com arquivos CSS
+      credits.css            # Estilos da página de créditos das imagens
+      index.css              # Estilos principais da página inicial
+      reset.css              # Arquivo que reseta todos os elementos da página
+      responsive.css         # Estilos para design responsivo
+   js/                       # Pasta com arquivos JavaScript
+      index.js               # Lógica principal do projeto
+README.md                    # Informações do projeto
+credits.html                 # Página dos créditos das imagens utilizadas no projeto
+index.html                   # Página inicial
+```
 
 
 
