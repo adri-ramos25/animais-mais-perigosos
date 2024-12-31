@@ -33,18 +33,17 @@ Indisponível.
 Indisponível.
 
 
-
 ## Estrutura de Pastas
 
 ```plaintext
 src/                         # Pasta com o código-fonte do projeto
    css/                      # Pasta com arquivos CSS
-      credits.css            # Estilos da página de créditos das imagens
-      index.css              # Estilos principais da página inicial
+      credits.css            # Estilos da página de créditos das imagens utilizadas no projeto
+      index.css              # Estilos da página inicial
       reset.css              # Arquivo que reseta todos os elementos da página
       responsive.css         # Estilos para design responsivo
    js/                       # Pasta com arquivos JavaScript
-      index.js               # Lógica principal do projeto
+      enlarge-photos.js      # Lógica que mostra as imagens dos animais ampliadas
 README.md                    # Informações do projeto
 credits.html                 # Página dos créditos das imagens utilizadas no projeto
 index.html                   # Página inicial

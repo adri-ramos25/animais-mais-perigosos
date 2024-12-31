@@ -1,7 +1,168 @@
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(100, 74, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    width: 11.5em;
+    background-color: brown;
+}
+
+p{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 10em;
+}
+
+button{
+    background-color: rgb(41, 119, 25);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(32, 191, 0);
+}
+
+a{
+    color: rgb(41, 119, 25);
+    margin-bottom: 5em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 5em 0 5em;
+}
+
+header, .box-title-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, h2{
+    color: rgb(32, 191, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+.titles{
+    background-color: brown;
+    width: 18.2em;
+}
+
+.box-animals{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+.box-imgs-and-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-expanded-photo{
+    display: flex;
+    width: 30em;
+    background-color: antiquewhite;
+    padding: 50px;
+    border-radius: 50px;
+    position: fixed;
+    display: none;
+}
+
+.image-btn-close{
+    width: 50px;
+}
+
+.btn-close{
+    width: 50px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.btn-close:hover{
+    background-color: rgb(94, 0, 0);
+}
+
+.color-animals-names{
+    color: rgb(41, 119, 25);
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.curiosity-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box-random-curiosities{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.boxes-animals-random-curiosities{
+    text-align: center;
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: blanchedalmond;
+}
+
+.btns-random-curiosities{
+    width: 10em;
+    height: 5em;
+}
+
+.hr-styles{
+    background-color: rgb(100, 74, 39);
+    height: 3px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 .developer-name{
     width: 270px;
     margin-bottom: 30px;
     color: rgb(40, 115, 255);
     font-weight: bold;
     text-align: center;
+}
+
+
+
+#expanded-photo-taipan{
+    width: 20em;
+    display: none;
 }

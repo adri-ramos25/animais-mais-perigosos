@@ -7,30 +7,31 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/responsive.css">
     <link rel="stylesheet" href="src/css/index.css">
-    <title>Document</title>
+    <title>Os Animais Mais Perigosos do Mundo</title>
 </head>
 
 <body>
     <header>
         <h1>Os Animais mais Perigosos do Mundo</h1>
-        <hr>
     </header>
 
 
 
     <main>
+        <hr class="hr-styles">
+
         <div class="box-main">
 
             <!-- Caixa da Taipan-do-Interior -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-and-buttons">
                     <img src="src/images/taipan.png" alt="">
 
-                    <button>Ampliar foto</button>
+                    <button id="btn-expand-photo-taipan" class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
 
                 <div class="box-curiosity-text">
-                    <p>Taipan-do-Interior</p>
+                    <p class="color-animals-names">Taipan-do-Interior</p>
 
                     <p>
                         A Taipan-do-Interior é amplamente considerada a cobra mais 
@@ -43,20 +44,30 @@
                         raramente entra em contato com humanos.
                     </p>
                 </div>
+
+                <div class="box-expanded-photo">
+                    <p>Taipan-do-Interior</p>
+
+                    <img id="expanded-photo-taipan" class="expanded-photos" src="src/images/taipan.png" alt="">
+
+                    <button class="btn-close">
+                        <img class="image-btn-close" src="src/images/botao-fechar.png" alt="">
+                    </button>
+                </div>
             </div>
 
-            <hr>
+            <hr class="hr-styles">
 
             <!-- Caixa do Hipopotamo -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-buttons">
                     <img src="src/images/hipopotamo.png" alt="">
             
-                    <button>Ampliar foto</button>
+                    <button class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
             
                 <div class="box-curiosity-text">
-                    <p>Hipopótamo</p>
+                    <p class="color-animals-names">Hipopótamo</p>
 
                     <p>
                         Embora possam parecer lentos e dóceis, os hipopótamos 
@@ -71,18 +82,18 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="hr-styles">
 
             <!-- Caixa da Agua-viva-caixa -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-buttons">
                     <img src="src/images/agua-viva.png" alt="">
                         
-                    <button>Ampliar foto</button>
+                    <button class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
                         
                 <div class="box-curiosity-text">
-                    <p>Água-Viva-Caixa</p>
+                    <p class="color-animals-names">Água-Viva-Caixa</p>
                     <p>
                         Essa criatura quase transparente é encontrada 
                         principalmente no Oceano Pacífico e é responsável por 
@@ -96,18 +107,18 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="hr-styles">
 
             <!-- Caixa do Mosquito -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-buttons">
                     <img src="src/images/mosquito.png" alt="">
                         
-                    <button>Ampliar foto</button>
+                    <button class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
                         
                 <div class="box-curiosity-text">
-                    <p>Mosquito</p>
+                    <p class="color-animals-names">Mosquito</p>
                     <p>
                         Apesar de seu pequeno tamanho, o mosquito é o animal 
                         mais mortal do mundo, responsável por cerca de 1 milhão 
@@ -119,18 +130,18 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="hr-styles">
             
             <!-- Caixa do Crocodilo de agua salgada -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-buttons">
                     <img src="src/images/crocodilo.png" alt="">
                         
-                    <button>Ampliar foto</button>
+                    <button class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
                         
                 <div class="box-curiosity-text">
-                    <p>Crocodilo-de-Água-Salgada</p>
+                    <p class="color-animals-names">Crocodilo-de-Água-Salgada</p>
 
                     <p>
                         Com até 7 metros de comprimento e pesando mais de 1 
@@ -142,18 +153,18 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="hr-styles">
 
             <!-- Caixa do Tubarao Branco -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-buttons">
                     <img src="src/images/tubarao.png" alt="">
                                     
-                    <button>Ampliar foto</button>
+                    <button class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
                                     
                 <div class="box-curiosity-text">
-                    <p>Tubarão Branco</p>
+                    <p class="color-animals-names">Tubarão Branco</p>
 
                     <p>
                         Famoso por sua representação em filmes como 'Tubarão', o tubarão branco é um dos maiores e mais potentes predadores dos oceanos. Ele pode detectar uma gota de sangue na água a uma distância de até 5 quilômetros. Embora raramente ataquem humanos, quando o fazem, o impacto de sua mordida pode ser devastador, graças a suas fileiras de dentes afiados e mandíbulas incrivelmente fortes.
@@ -161,18 +172,18 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="hr-styles">
 
             <!-- Caixa do Polvo-de-Aneis-Azuis -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-buttons">
                     <img src="src/images/polvo.png" alt="">
                                                 
-                    <button>Ampliar foto</button>
+                    <button class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
                                                 
                 <div class="box-curiosity-text">
-                    <p>Polvo-de-Anéis-Azuis</p>
+                    <p class="color-animals-names">Polvo-de-Anéis-Azuis</p>
 
                     <p>
                         Este pequeno polvo, encontrado nas águas da Austrália e da região Indo-Pacífica, é incrivelmente venenoso. Sua toxina é poderosa o suficiente para causar paralisia completa e morte em minutos. O mais alarmante é que sua mordida é indolor, e muitas vezes as vítimas não percebem que foram envenenadas até que os sintomas se manifestem.
@@ -180,18 +191,18 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="hr-styles">
 
             <!-- Caixa do Rinoceronte -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-buttons">
                     <img src="src/images/rinoceronte.png" alt="">
                                                 
-                    <button>Ampliar foto</button>
+                    <button class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
                                                 
                 <div class="box-curiosity-text">
-                    <p>Rinoceronte</p>
+                    <p class="color-animals-names">Rinoceronte</p>
 
                     <p>
                         Com uma visão limitada, mas um olfato e audição extremamente aguçados, os rinocerontes frequentemente interpretam qualquer movimento como uma ameaça. Sua carga pode atingir velocidades de até 50 km/h, e seu peso, que pode ultrapassar 2 toneladas, torna uma colisão com um rinoceronte algo fatal para qualquer intruso em seu território.
@@ -199,18 +210,18 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="hr-styles">
 
             <!-- Caixa do Tigre-de-Bengala -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-buttons">
                     <img src="src/images/tigre.png" alt="">
                                                 
-                    <button>Ampliar foto</button>
+                    <button class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
                                                 
                 <div class="box-curiosity-text">
-                    <p>Tigre-de-Bengala</p>
+                    <p class="color-animals-names">Tigre-de-Bengala</p>
 
                     <p>
                         Como o maior dos grandes felinos, o tigre-de-Bengala é uma máquina de caça implacável. Ele pode saltar distâncias de até 10 metros e carregar presas que pesam o dobro de seu peso corporal. Apesar de serem predadores solitários, ataques a humanos ocorrem em áreas onde suas florestas estão sendo destruídas, forçando-os a buscar comida em vilarejos próximos.
@@ -218,18 +229,18 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="hr-styles">
 
             <!-- Caixa do Escorpião Deathstalker -->
             <div class="box-animals">
-                <div class="box-imgs">
+                <div class="box-imgs-buttons">
                     <img src="src/images/escorpiao.png" alt="">
                                                             
-                    <button>Ampliar foto</button>
+                    <button class="btns-enlarge-photos">Ampliar foto</button>
                 </div>
                                                             
                 <div class="box-curiosity-text">
-                    <p>Escorpião Deathstalker</p>
+                    <p class="color-animals-names">Escorpião Deathstalker</p>
 
                     <p>
                         Esse escorpião, encontrado em desertos do Oriente Médio e norte da África, é conhecido por seu veneno altamente tóxico. Embora raramente mate adultos saudáveis, suas picadas causam dor extrema, febre, convulsões e até coma. Crianças e idosos estão particularmente em risco, e encontros com esse escorpião são frequentemente acidentais.
@@ -238,59 +249,118 @@
             </div>
         </div>
 
-        <hr>
+        <hr class="hr-styles">
 
         <div class="box-title-2">
             <h2>Curiosidades Aleatórias</h2>
 
-            <p>Toque na imagem do animal para ver
+            <!-- A classe "curiosity-text" serve só para que esse texto fique alinhado no centro -->
+            <p class="curiosity-text color-animals-names">Toque na imagem do animal para ver
                 uma curiosidade aleatória sobre ele!
             </p>
         </div>
 
-        <hr>
+        <hr class="hr-styles">
 
-        <div class="box-imgs-random-curiosities">
-            <img src="src/images/taipan.png" alt="">
-            <p>Taipan-do-Interior</p>
+        <div class="box-random-curiosities">
 
-            <img src="src/images/hipopotamo.png" alt="">
-            <p>Hipopótamo</p>
+            <!-- A classe "boxes-animals-random-curiosities" é a caixa onde ficam as imagens e os nomes dos animais -->
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/taipan.png" alt="">
+                </button>
+                <p class="color-animals-names">
+                    Taipan-do-
+                    <br>
+                    Interior
+                </p>
+            </div>
+
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/hipopotamo.png" alt="">
+                </button>
+                <p class="color-animals-names">Hipopótamo</p>
+            </div>
         </div>
 
-        <div class="box-imgs-random-curiosities">
-            <img src="src/images/agua-viva.png" alt="">
-            <p>Água-Viva-Caixa</p>
+        <div class="box-random-curiosities">
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/agua-viva.png" alt="">
+                </button>
+                <p class="color-animals-names">Água-Viva-Caixa</p>
+            </div>
 
-            <img src="src/images/mosquito.png" alt="">
-            <p>Mosquito</p>
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/mosquito.png" alt="">
+                </button>
+                <p class="color-animals-names">Mosquito</p>
+            </div>
         </div>
 
-        <div class="box-imgs-random-curiosities">
-            <img src="src/images/crocodilo.png" alt="">
-            <p>Crocodilo</p>
+        <div class="box-random-curiosities">
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/crocodilo.png" alt="">
+                </button>
+                <p class="color-animals-names">
+                    Crocodilo de
+                    <br> 
+                    Água Salgada
+                </p>
+            </div>
 
-            <img src="src/images/tubarao.png" alt="">
-            <p>Tubarão Branco</p>
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/tubarao.png" alt="">
+                </button>
+                <p class="color-animals-names">Tubarão Branco</p>
+            </div>
         </div>
 
-        <div class="box-imgs-random-curiosities">
-            <img src="src/images/polvo.png" alt="">
-            <p>Polvo-de-Anéis-Azuis</p>
+        <div class="box-random-curiosities">
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/polvo.png" alt="">
+                </button>
+                <p class="color-animals-names">
+                    Polvo-de-
+                    <br>
+                    Anéis-Azuis
+                </p>
+            </div>
 
-            <img src="src/images/rinoceronte.png" alt="">
-            <p>Rinoceronte</p>
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/rinoceronte.png" alt="">
+                </button>
+                <p class="color-animals-names">Rinoceronte</p>
+            </div>
         </div>
 
-        <div class="box-imgs-random-curiosities">
-            <img src="src/images/tigre.png" alt="">
-            <p>Tigre-de-Bengala</p>
+        <div class="box-random-curiosities">
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/tigre.png" alt="">
+                </button>
+                <p class="color-animals-names">
+                    Tigre-de-
+                    <br>
+                    Bengala
+                </p>
+            </div>
 
-            <img src="src/images/escorpiao.png" alt="">
-            <p>Escorpião</p>
+            <div class="boxes-animals-random-curiosities">
+                <button class="btns-random-curiosities">
+                    <img src="src/images/escorpiao.png" alt="">
+                </button>
+                <p class="color-animals-names">Escorpião</p>
+            </div>
         </div>
 
-        <hr>
+        <hr class="hr-styles">
 
     </main>
 
@@ -302,6 +372,6 @@
         <p class="developer-name">Desenvolvido por Adriano Ramos</p>
     </footer>
 
-    <script src="src/js/index.js"></script>
+    <script src="src/js/enlarge-photos.js"></script>
 </body>
 </html>
