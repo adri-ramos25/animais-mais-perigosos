@@ -86,32 +86,6 @@ h1, h2{
     align-items: center;
 }
 
-.box-expanded-photo{
-    display: flex;
-    width: 30em;
-    background-color: antiquewhite;
-    padding: 50px;
-    border-radius: 50px;
-    position: fixed;
-    display: none;
-}
-
-.image-btn-close{
-    width: 50px;
-}
-
-.btn-close{
-    width: 50px;
-    height: 45px;
-    margin-top: 30px;
-    background-color: transparent;
-    border-radius: 50px;
-}
-
-.btn-close:hover{
-    background-color: rgb(94, 0, 0);
-}
-
 .color-animals-names{
     color: rgb(41, 119, 25);
     margin-left: 5px;
@@ -162,7 +136,6 @@ h1, h2{
 
 
 
-#expanded-photo-taipan{
-    width: 20em;
+.btn-reduce-photo{
     display: none;
 }

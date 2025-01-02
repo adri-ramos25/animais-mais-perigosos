@@ -1,37 +1,41 @@
-const btnEnlargePhotoTaipan = document.getElementById("btn-expand-photo-taipan");
+const btnExpandPhoto = document.getElementsByClassName("btn-expand-photo");
 
-const boxExpandedPhoto = document.getElementsByClassName("box-expanded-photo");
-
-const btnClose = document.getElementsByClassName("btn-close");
-
-const expandedPhotos = document.getElementsByClassName("expanded-photos");
-
-let selectedPhoto = "";
+const btnReducePhoto = document.getElementsByClassName("btn-reduce-photo");
 
 
 
-btnEnlargePhotoTaipan.addEventListener("click", () => {
-    selectedPhoto = "taipan";
-    enlargePhoto();
+// Botoes que ampliam o tamanho das imagens dos animais
+btnExpandPhoto[0].addEventListener("click", () => {
+    document.getElementsByClassName("texts-taipan")[0].style.display = "none";
+    document.getElementsByClassName("texts-taipan")[1].style.display = "none";
+    btnExpandPhoto[0].style.display = "none";
+    btnReducePhoto[0].style.display = "block";
+    document.getElementById("photo-taipan").style.width = "20em";
 })
 
-btnClose[0].addEventListener("click", () => {
-    closeExpandedPhoto();
+btnExpandPhoto[1].addEventListener("click", () => {
+    document.getElementsByClassName("texts-hipopotamo")[0].style.display = "none";
+    document.getElementsByClassName("texts-hipopotamo")[1].style.display = "none";
+    btnExpandPhoto[1].style.display = "none";
+    btnReducePhoto[1].style.display = "block";
+    document.getElementById("photo-hipopotamo").style.width = "20em";
 })
 
 
 
-// Amplia a foto do animal
-function enlargePhoto() {
-    boxExpandedPhoto[0].style.display = "block";
+// Botoes que reduzem o tamanho das imagens dos animais
+btnReducePhoto[0].addEventListener("click", () => {
+    document.getElementById("photo-taipan").style.width = "10em";
+    btnReducePhoto[0].style.display = "none";
+    btnExpandPhoto[0].style.display = "block";
+    document.getElementsByClassName("texts-taipan")[0].style.display = "block";
+    document.getElementsByClassName("texts-taipan")[1].style.display = "block";
+})
 
-    if (selectedPhoto == "taipan") {
-        document.getElementById("expanded-photo-taipan").style.display = "block";
-    }
-}
-
-// Fecha a foto expandida do animal
-function closeExpandedPhoto() {
-    expandedPhotos[0].style.display = "none";
-    boxExpandedPhoto[0].style.display = "none";
-}
+btnReducePhoto[1].addEventListener("click", () => {
+    document.getElementById("photo-hipopotamo").style.width = "10em";
+    btnReducePhoto[1].style.display = "none";
+    btnExpandPhoto[1].style.display = "block";
+    document.getElementsByClassName("texts-hipopotamo")[0].style.display = "block";
+    document.getElementsByClassName("texts-hipopotamo")[1].style.display = "block";
+})
