@@ -12,7 +12,7 @@ Projeto que eu estou desenvolvendo para praticar conceitos das tecnologias que u
 
 ## Acesso ao Projeto
 
-Indisponível.
+Você pode ver o projeto funcionando através do seguinte link: https://adri-ramos25.github.io/animais-mais-perigosos/
 
 
 
