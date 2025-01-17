@@ -1,6 +1,6 @@
 ## Os Animais Mais Perigosos do Mundo
 
-![Imagens do projeto]()
+![Imagens do projeto](https://github.com/adri-ramos25/animais-mais-perigosos/raw/master/src/images/screenshot.png)
 
 
 
