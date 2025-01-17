@@ -1,12 +1,12 @@
 ## Os Animais Mais Perigosos do Mundo
 
-Todas as seções, com exceção das seções **Status do Projeto**, **Estrutura de Pastas** e **Como Usar** estão com o status de **Indisponível**, porque o projeto está em desenvolvimento.
+![Imagens do projeto]()
 
 
 
 ## Sobre o Projeto
 
-Indisponível.
+Projeto que eu estou desenvolvendo para praticar conceitos das tecnologias que utilizo. Ele se trata de um site que mostra curiosidades dos animais mais perigosos do mundo.
 
 
 
@@ -24,29 +24,37 @@ O projeto está **Em desenvolvimento**.
 
 ## Funcionalidades
 
-Indisponível.
+```plaintext
+- Ampliar Imagem            #Permite que as imagens dos animais sejam ampliadas ao clicar nelas
+- Curiosidades Aleatórias   #Permite que curiosidades aleatórias dos animais sejam mostradas ao clicar na imagem deles
+```
 
 
 
 ## Tecnologias Utilizadas
 
-Indisponível.
+```plaintext
+- JavaScript   #Para a adição das funcionalidades
+- HTML         #Para a estrutura das páginas
+- CSS          #Para a estilização das páginas
+- Figma        #Para a criação da interface do projeto
+```
 
 
 ## Estrutura de Pastas
 
 ```plaintext
-src/                         # Pasta com o código-fonte do projeto
-   css/                      # Pasta com arquivos CSS
-      credits.css            # Estilos da página de créditos das imagens utilizadas no projeto
-      index.css              # Estilos da página inicial
-      reset.css              # Arquivo que reseta todos os elementos da página
-      responsive.css         # Estilos para design responsivo
-   js/                       # Pasta com arquivos JavaScript
-      enlarge-photos.js      # Lógica que mostra as imagens dos animais ampliadas
-README.md                    # Informações do projeto
-credits.html                 # Página dos créditos das imagens utilizadas no projeto
-index.html                   # Página inicial
+src/                          #Pasta com o código-fonte do projeto
+   css/                       #Pasta com arquivos CSS
+      credits.css             #Estilos da página de créditos das imagens utilizadas no projeto
+      index.css               #Estilos da página inicial
+      reset.css               #Reseta os estilos de todos os elementos da página
+   js/                        #Pasta com arquivos JavaScript
+      enlarge-photos.js       #Lógica que mostra as imagens dos animais ampliadas
+      random-curiosities.js   #Lógica para mostrar curiosidades aleatórias dos animais
+README.md                     #Informações do projeto
+credits.html                  #Página dos créditos das imagens utilizadas no projeto
+index.html                    #Página inicial
 ```
 
 

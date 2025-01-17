@@ -3,7 +3,6 @@ const btnExpandPhoto = document.getElementsByClassName("btn-expand-photo");
 const btnReducePhoto = document.getElementsByClassName("btn-reduce-photo");
 
 
-
 // Botoes que ampliam o tamanho das imagens dos animais
 btnExpandPhoto[0].addEventListener("click", () => {
     document.getElementsByClassName("texts-taipan")[0].style.display = "none";
@@ -84,7 +83,6 @@ btnExpandPhoto[9].addEventListener("click", () => {
     btnReducePhoto[9].style.display = "block";
     document.getElementById("photo-escorpiao").style.width = "20em";
 })
-
 
 
 // Botoes que reduzem o tamanho das imagens dos animais

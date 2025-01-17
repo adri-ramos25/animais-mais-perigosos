@@ -3,8 +3,7 @@ body{
     font-weight: bold;
     color: rgb(100, 74, 39);
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; 
 }
 
 h2{
@@ -39,6 +38,10 @@ button:hover{
 a{
     color: rgb(41, 119, 25);
     margin-bottom: 5em;
+}
+
+header{
+    margin-top: 100px;
 }
 
 header, .box-title-2{
@@ -91,6 +94,7 @@ h1, h2{
 .box-random-curiosities{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .boxes-animals-random-curiosities{
@@ -113,8 +117,10 @@ h1, h2{
     height: 3px;
     border: none;
     border-radius: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .footer{
@@ -128,9 +134,13 @@ h1, h2{
     width: 20.4em;
 }
 
+.box-developer-name{
+    color: #000;
+    text-align: center;
+}
+
 .developer-name{
     width: 16.5em;
-    margin-bottom: 30px;
     color: rgb(40, 115, 255);
     font-weight: bold;
     text-align: center;

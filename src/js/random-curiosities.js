@@ -19,9 +19,7 @@ const randomCuriositiesTigre = document.getElementsByClassName("random-curiositi
 const randomCuriositiesEscorpiao = document.getElementsByClassName("random-curiosities-escorpiao");
 
 
-
 const btnsRandomCuriosities = document.getElementsByClassName("btns-random-curiosities");
-
 
 
 let curiosityTaipan;
@@ -43,7 +41,6 @@ let curiosityRinoceronte;
 let curiosityTigre;
 
 let curiosityEscorpiao;
-
 
 
 btnsRandomCuriosities[0].addEventListener("click", () => {
