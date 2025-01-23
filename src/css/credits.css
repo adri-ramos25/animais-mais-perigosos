@@ -9,3 +9,6 @@ a{
     display: flex;
     justify-content: center;
 }
+.box-last-link{
+    margin-bottom: 80px;
+}
