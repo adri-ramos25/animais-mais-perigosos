@@ -60,6 +60,9 @@ h1, h2{
 
 
 
+.texts{
+    width: 20em;
+}
 .box-main{
     display: flex;
     flex-direction: column;
@@ -77,6 +80,7 @@ h1, h2{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 8.5em;
 }
 
 .btn-expand-photo{
