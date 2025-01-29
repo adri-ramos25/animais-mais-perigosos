@@ -6,7 +6,7 @@
 
 ## Sobre o Projeto
 
-Projeto que eu estou desenvolvendo para praticar conceitos das tecnologias que utilizo. Ele se trata de um site que mostra curiosidades dos animais mais perigosos do mundo.
+Projeto que eu desenvolvi para praticar conceitos das tecnologias que utilizo. Ele se trata de um site que mostra curiosidades dos animais mais perigosos do mundo.
 
 
 
@@ -23,14 +23,14 @@ Ou, se preferir rodar localmente:
 
 ## Status do Projeto
 
-O projeto está **Em desenvolvimento**.
+O projeto está **Concluído**.
 
 
 
 ## Funcionalidades
 
 ```plaintext
-- Ampliar Imagem            #Permite que as imagens dos animais sejam ampliadas ao clicar nelas
+- Ampliar Imagem            #Permite que as imagens dos animais sejam ampliadas ao clicar no botão "Ampliar foto"
 - Curiosidades Aleatórias   #Permite que curiosidades aleatórias dos animais sejam mostradas ao clicar na imagem deles
 ```
 
