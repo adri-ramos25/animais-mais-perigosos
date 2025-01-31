@@ -55,6 +55,7 @@ src/                          #Pasta com o código-fonte do projeto
       credits.css             #Estilos da página de créditos das imagens utilizadas no projeto
       index.css               #Estilos da página inicial
       reset.css               #Reseta os estilos de todos os elementos da página
+      responsive.css          #Para design responsivo
    js/                        #Pasta com arquivos JavaScript
       enlarge-photos.js       #Lógica que mostra as imagens dos animais ampliadas
       random-curiosities.js   #Lógica para mostrar curiosidades aleatórias dos animais
