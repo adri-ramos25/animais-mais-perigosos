@@ -1,0 +1,6 @@
+@media (max-width: 450px) {
+    html{
+        display: flex;
+        align-items: center;
+    }
+}
